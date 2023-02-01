@@ -1,38 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Coding Farm
+### 코딩테스트 스터디 매칭 / 학습 도움 웹사이트
+_________
+## Commit Convention
+### Commit 메시지 구성
+``` 
+type : 
+(한 줄 띄고)
+body(본문내용) :
+(한줄 띄고)
+footer(꼬리말) : 
 ```
+### Commit Type
++ Feat : 새로운 기능 추가
++ Fix : 버그 수정
++ Design : CSS 등 사용자 UI 디자인 변경
++ Docs : 문서 수정
++ Style : 코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우
++ Refactor : 코드 리팩토링
++ Test : 테스트 코드, 리팩토링 테스트 코드 추가
++ Chore : 빌드 업무 수정, 패키지 매니저 수정, production code 변경 없음
++ Remove : 파일 삭제만 진행한 경우
++ Rename : 파일 혹은 폴더명을 수정하거나 옮기는 작업만 수행한 경우
++ Comment : 주석 추가 및 변경
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Body
++ 선택사항임, 때문에 모든 커밋에 본문내용을 작성할 필요는 없다
++ 부연설명이 필요한 경우나 커밋의 이유를 설명할 경우 작성
++ 72자를 넘기지 않고 제목과 구분되기 위해 한칸 띄워 작성
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Footer
++ 선택사항
++ issue tracker id 작성할 때 사용 (이슈 트래커 정리 글)   
+https://velog.io/@code-bebop/Github-Issue-Tracker%EC%99%80-Project-Board
